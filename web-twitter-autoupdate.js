@@ -8,7 +8,6 @@
 // DID YOU KNOW THAT INSTEAD OF UPDATING ELEMENTS THAT ARE THERE TWITTER'S CODE DELETES, THEN RECREATSE EVERY ELEMENT
 // I DIDN'T
 // I'M DONE
-$.each(console,function(i,v){if(v.name!=i){delete console[i]}});
 if(Element.prototype.getBoundingClientRect === undefined){throw "FunctionalityError: getBoundingClientRect() does not appear to exist! Upgrade, or if it does, tell the dev!"}
 
 Element.prototype.isonScreen = function () { // im so sorry
